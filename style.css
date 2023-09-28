@@ -58,3 +58,29 @@ h1 {
   margin-bottom: 15px;
   text-align: center;
 }
+
+p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.4rem;
+  text-align: justify;
+}
+
+.gen-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+input {
+  width: 80%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #999;
+  transition: all 0.3s ease;
+}
