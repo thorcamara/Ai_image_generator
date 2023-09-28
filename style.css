@@ -84,3 +84,25 @@ input {
   border: 1px solid #999;
   transition: all 0.3s ease;
 }
+
+input:hover,
+input:focus {
+  border-color: #675afe;
+}
+
+button {
+  width: 20%;
+  height: 36px;
+  color: #fff;
+  border: 1px solid #ccc;
+  background: #20232c;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #675afe;
+  border-color: transparent;
+}
