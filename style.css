@@ -106,3 +106,26 @@ button:hover {
   background: #675afe;
   border-color: transparent;
 }
+
+#loading {
+  display: none;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999;
+  background-color: #ccc;
+  color: #666;
+  cursor: auto;
+}
+
+.result {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
